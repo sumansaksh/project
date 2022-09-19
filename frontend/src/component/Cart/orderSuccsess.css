@@ -1,0 +1,34 @@
+.OrderSuccsessContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.OrderSuccsessContainer > img {
+  width: 40%;
+}
+.orderSuccsesNote {
+  font: 400 2vmax "Roboto";
+  color: rgba(0, 0, 0, 0.753);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  text-align: center;
+  width: 50%;
+  margin: 1vmax;
+}
+
+.orderSuccsesBtn {
+  border: none;
+  background-color: #790252;
+  color: white;
+  font: 300 1vmax "Roboto";
+  width: 30%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.orderSuccsesBtn:hover {
+  background-color: #8c266a;
+}

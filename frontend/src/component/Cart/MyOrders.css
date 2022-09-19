@@ -1,0 +1,94 @@
+.myOrdersPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh;
+}
+.myOrderSingleOrder {
+  width: 70%;
+  border: 0.6vmax solid #e80f88;
+  margin: 1vmax;
+  box-shadow: 0 0 5px;
+  text-decoration: none;
+}
+
+.myOrdersPage > h1 {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 2.2vmax "Roboto";
+}
+.myOrderTop > h3 {
+  color: rgba(0, 0, 0, 0.555);
+  font: 500 "Roboto";
+}
+
+.singleOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 1vmax;
+}
+.singleOrder > div > div > p {
+  font: 400 "Roboto";
+  color: gray;
+}
+.singleOrder > div > img {
+  width: 4vmax;
+}
+
+.singleOrder > div {
+  display: flex;
+  margin: 1vmax;
+  justify-content: space-between;
+
+  width: 40%;
+}
+.myOrderTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmax;
+}
+#myOrderTotalPrice {
+  align-items: right;
+}
+
+.myOrderTruck {
+  width: 2vmax;
+  height: 2vmax;
+  color: rgb(219, 164, 62);
+  padding: 0.5vmax;
+}
+.myOrderTick {
+  position: absolute;
+  transform: translatex(-1.3vmax);
+  width: 1vmax;
+  height: 1vmax;
+  color: green;
+}
+.myOrderProcessing {
+  position: absolute;
+  transform: translatex(-1.3vmax);
+  width: 1vmax;
+  height: 1vmax;
+  color: blue;
+}
+
+#myOrderTotalPrice {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  margin: 1vmax;
+}
+
+.myOrderIcons > p {
+  font: "Roboto";
+}
+
+.myOrderTick + p {
+  color: green;
+}
+
+.myOrderProcessing + p {
+  color: blue;
+}

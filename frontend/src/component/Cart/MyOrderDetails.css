@@ -1,0 +1,42 @@
+orderDetailsPage {
+  background-color: white;
+}
+
+.orderDetailsDiv > h1 {
+  font: 300 3vmax "Roboto";
+  margin: 4vmax 0;
+  color: #e80f88;
+}
+
+.orderDetailsDiv > h2 {
+  font: "Roboto";
+  margin: 4vmax 0;
+}
+
+.orderDetailsDiv {
+  padding: 5vmax;
+  padding-bottom: 0%;
+  color: black;
+}
+
+.orderDetailsDiv > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.orderDetailsBox {
+  margin: 2vmax;
+}
+.orderDetailsBox > div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.orderDetailsBox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+.orderDetailsBox > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}

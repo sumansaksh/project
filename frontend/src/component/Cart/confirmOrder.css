@@ -1,0 +1,134 @@
+.confirmOrderPage {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+.confirmCartItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.confirmCartItems {
+  font: 500 0.9vmax "Roboto";
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.confirmshippingArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmCartItemsContainer > div > img {
+  width: 4vmax;
+}
+
+.confirmCartItemsContainer > div {
+  display: flex;
+  margin: 3vmax;
+}
+.confirmOrderHeader {
+  font: 500 0.9vmax "Roboto";
+  display: flex;
+  padding: 5vmax;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.692);
+}
+.confirmshippingAreaBox > div {
+  font: 300 0.9vmax "Roboto";
+  display: flex;
+  margin: 0.5vmax;
+}
+
+.confirmshippingAreaBox > div > span {
+  font: 300 0.9vmax "Roboto";
+  padding-left: 5vmax;
+  color: rgb(55, 55, 55);
+}
+.confirmshippingArea > h2 {
+  color: rgba(0, 0, 0, 0.692);
+  padding: 5vmax;
+}
+.orderSummary > h2 {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummary {
+  padding: 7vmax;
+  border-left: 1px solid gray;
+}
+
+.orderSummary > p {
+  text-align: center;
+  font: 400 1.8vmax "Roboto";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 1vmax;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.orderSummary > div > div {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+.orderSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummaryTotal {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 2vmax 0;
+}
+
+.orderSummary > button,
+.payBtn {
+  background-color: #790252;
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  font: 400 1vmax "Roboto";
+}
+
+.payBtn {
+  background-color: #6c0248;
+}
+
+@media screen and (max-width: 600px) {
+  .confirmOrderPage {
+    grid-template-columns: 1fr;
+  }
+  .confirmOrderHeader {
+    font-size: 3vmax;
+  }
+  .confirmCartItemsContainer > div > img {
+    width: 10vmax;
+  }
+  .confirmCartItemsContainer > div {
+    font-size: 2vmax;
+  }
+  .confirmshippingAreaBox > div,
+  .confirmshippingAreaBox > div > span {
+    font-size: 2vmax;
+  }
+  .orderSummary > div > div,
+  .orderSummaryTotal,
+  .orderSummaryTotal + button,
+  .payBtn {
+    font-size: 2vmax;
+  }
+}

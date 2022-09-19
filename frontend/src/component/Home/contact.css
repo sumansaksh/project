@@ -1,0 +1,41 @@
+.contactMainPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  position: fixed;
+}
+.contactMainDiv {
+}
+
+.contactsubDiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1vmax;
+  width: 20vmax;
+  margin: 0.7vmax;
+  background-color: white;
+  text-decoration: none;
+}
+
+.contactsubDiv:hover {
+  background-color: pink;
+}
+.contactsubDiv > svg {
+  width: 2vmax;
+  height: 2vmax;
+  padding: 1vmax;
+  text-decoration: none;
+  color: black;
+}
+
+.contactsubDiv > p {
+  width: 2vmax;
+  height: 2vmax;
+  padding: 1vmax;
+  font: 400 1vmax cursive;
+  text-decoration: none;
+  color: black;
+}
